@@ -12,7 +12,7 @@ C_1 = C_0 - translation;
 R_Z = body_fixed_rotations(3, atand(3/2));
 C_2 = R_Z*C_1;
 
-% rotate whole body about x by 45
+% rotate whole body about y by 45
 C_3_star = C_2;
 
 % now, going back to XYZ frame
